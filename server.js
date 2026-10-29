@@ -49,5 +49,5 @@ app.post('/api/parcels/register', async (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-  console.log(EquiShare API running on port \);
+  console.log('EquiShare API running on port ' + PORT);
 });
